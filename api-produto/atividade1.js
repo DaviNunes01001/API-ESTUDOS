@@ -40,4 +40,6 @@ app.get("/musicas/:id", (req, res) => {
         .json({ message: "esta musica nao pode ser encontrada :(" });
 });
 
+
+
 app.listen(3000, () => console.log("ready"));
